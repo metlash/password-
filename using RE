@@ -1,0 +1,9 @@
+import re
+str="DuMiLDdrR"
+A=re.findall("[A-Z]",str)
+B=re.findall("[a-z]",str)
+C=re.findall(str[0],str)
+D=re.findall("R",str)
+X=(len(A)*1000)+(len(B)*100)+(len(C)*10)+len(D)
+print(X)
+
